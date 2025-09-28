@@ -42,3 +42,8 @@ function processPayroll(employee) {
     netPay: netPay
   };
 }
+
+// 7
+employees.forEach(emp => {
+  console.log(processPayroll(emp));
+});
